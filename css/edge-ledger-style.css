@@ -1,0 +1,211 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#logo{
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  position: sticky;
+  top: 0;
+  color: white;
+  padding: 1rem;
+  opacity: .9;
+}
+#logo h1, 
+#logo h1 .unique{
+  font-size: 2rem;
+}
+.menu{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 1rem;
+}
+.unique{
+  color: #9bcb52;
+}
+.menu li a{
+  padding: 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+.menu li a:hover{
+  color: white;
+  background: #9bcb52;
+  border-radius: 2px;
+}
+.showcase{
+  background: url(../image_resources/showcase.jpg) no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.showcase h1{
+  font-size: 3.5rem;
+  color: white;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.showcase p,
+.showcase a{
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+.showcase a{
+  background: #9bcb52;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+}
+.section-2{
+  height: auto;
+  background: lightgray;
+  
+}
+.section-2 h1,
+.section-2 .unique{
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.section-2-box{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 30rem;
+}
+#what-we-do{
+  margin: 2rem 3rem;
+  padding: .2rem 1rem;
+}
+#what-we-do h3,
+#what-we-do p{
+  font-size: 1.3rem;
+}
+.section-3{
+  display: flex;
+}
+.section-3 div{
+  flex: 1;
+  color: white;
+}
+#people{
+  background: url(../image_resources/people.jpg) no-repeat center center/cover;
+}
+#section-3-right{
+  padding: 2rem;
+  background: #222;
+}
+#section-3-right h1,
+#section-3-right h1 .unique{
+  font-size: 2.5rem;
+  padding-bottom: 1.2rem;
+}
+#section-3-right p{
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+#bum-bum{
+  border-bottom: #333 .5px dotted;
+  margin-top: 1rem;
+}
+#section-3-right h3{
+  font-size: 1.5rem;
+}
+.client{
+  margin:auto ;
+}
+.client h1,
+.client .unique{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#client-logo{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10rem;
+}
+#client-logo img{
+  display: block;
+  width: 60%;
+  align-items: center;
+}
+.contact-section{
+  display: flex;
+}
+.contact-section div{
+  flex: 1;
+  margin-top: 2rem;
+}
+.contact-form{
+  font-size: 1.5rem;
+  padding: 1rem;
+  background: #9bcb52;
+}
+.contact-section input,
+.contact-section textarea
+{
+  width: 90%;
+  font-size: 1.5rem;
+  padding: .5rem 1rem;
+  border-radius: 2px;
+  line-height: 2rem;
+  border: none;
+  margin: 1rem;
+  color: black;
+  display: block;
+
+}
+.contact-section button{
+  border: none;
+  margin: 1rem;
+  color: white;
+  display: block;
+  background: black;
+  width: 90%;
+  border-radius: 2px;
+  padding: .5rem;
+}
+.contact-section p,
+.contact-section h1,
+.contact-section label
+{
+  width: 90%;
+  font-size: 1.5rem;
+  padding: .5rem 1rem;
+  border-radius: 2px;
+  line-height: 2rem;
+  border: none;
+  color: white;
+  display: block;
+}
+.contact-section input:focus,
+.contact-section textarea:focus{
+  outline: none;
+  border: #9bcb52;
+}
+footer{
+  background: #333;
+  text-align: center;
+  padding: 1.5rem;
+  color: white;
+}
+footer p{
+  font-size: 1.5rem;
+}
+
+
+

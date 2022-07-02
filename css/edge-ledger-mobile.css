@@ -1,0 +1,35 @@
+#logo{
+  flex-direction: column;
+  align-items: center;
+}
+.showcase{
+  height: 400px;
+}
+.menu{
+  justify-content: space-between;  
+}
+.section-2-box{
+  margin: auto;
+  flex-direction: column;
+}
+.section-2 h1,
+.section-2 .unique{
+  padding: auto;
+  margin: auto;
+}
+#what-we-do{
+  padding: 1rem 2rem;
+  margin: 1rem;
+}
+.section-2 h1{
+  padding: 1rem;
+}
+#people{
+  display: none;
+}
+#client-logo{
+  margin: 1rem 2rem;
+}
+.contact-map{
+  display: none;
+}
